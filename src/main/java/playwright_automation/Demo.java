@@ -19,7 +19,6 @@ public class Demo {
 		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("example.png")));
 		browser.close();
 		playwright.close();
-
 	}
 
 }
